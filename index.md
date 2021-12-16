@@ -21,17 +21,14 @@ Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Mar
 
 # Here are some of my projects 
 ## Faby : The telepresence Robot
-
-![Faby](./files/faby.jpg)
+<img src="./files/faby.jpg" alt="drawing" width="500"/> 
 
 
 Faby is an autonomous telepresence robot which was used for di-directional communications. Robot has interactive user interface and Google assistant. The robot is currently deployed in Fablab of SRM University. The robot is incorporated with dynamic and static obstacle avoidance.
 
 The robot was later modified to accomodate trays so that the robot could be used to deliver tools to students working in the lab.
 
-![Faby](./files/actual_robot.jpeg)
-
-![Faby](./files/faby3.png)
+<img src="./files/actual_robot.jpeg" alt="drawing" width="350"/> <img src="./files/faby3.png" alt="drawing" width="5000"/> 
 
 
 
