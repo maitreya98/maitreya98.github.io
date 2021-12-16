@@ -52,110 +52,15 @@ Prediction of tool wear by monitoring the vibrations generally based on the conc
 The components are a NodeMCU and a MPU-6050 accelerometer + gyro which is connected to laptop through a USB cable which is source of power for the NodeMCU. The vibration from the machining process is sensed by the sensor is sent to NodeMCU, all the data received is sent to MATLAB cloud platform Thingspeak. The machining parameters such as spindle speed and depth of cut are hardcoded in the code. The data that was uploaded is stored and was imported as a CSV file in the MATLAB workspace. The data that was imported contained raw acceleration data, this data was worked upon and manipulated and all the acceleration values were changed to corresponding frequency values using the formula given in following table. Using the new manipulated data a machine learning model was trained using classification learner in MATLAB. 
 
 We used two different models for the prediction of the tool wear namely: Fine KNN and SVM. The above model types were chosen due to the high accuracy The above models also gave a high cross-validation accuracy. As our prediction is based on classification we chose to go with Fine KNN. The Fine KNN model gave us the training accuracy of 97.1%. The trained model was later imported and prediction is made using the last data uploaded to the Thingspeak cloud. Here is the link to the project [link](https://github.com/maitreya98/Prediction-of-Tool-Wear).
-## Header 2
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Here is the confusion matrix:
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+<img src="./files/data1.png" alt="drawing" width="500"/> 
 
 
-### Definition lists can be used with HTML syntax.
+ROC:
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+<img src="./files/data2.png" alt="drawing" width="500"/> 
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
-```
-The final element.
-```
+
