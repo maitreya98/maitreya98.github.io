@@ -5,15 +5,25 @@ layout: default
 **Maitreya Kulkarni**
 
 
-Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Marjoring in Robotics Engineering
+Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Marjoring in Robotics Engineering. I did my undergraduate program in Mechatronics Engineering from SRM University, Chennai,India.
 
- [Here is my Resume](./files/Maitreya_resume.pdf).
+## [Here is my Resume](./files/Maitreya_resume.pdf).
 
 
 
-# Header 1
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+# Here are some cool projects 
+### Dr. Moovy : The telepresence Robot for hospitals
+![Dr. Moovy](./files/render#3.png)
+
+
 
 ## Header 2
 
