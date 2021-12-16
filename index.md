@@ -11,22 +11,29 @@ Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Mar
 
 
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+### These are my Technical Skills
+
+*   ROS
+*   C++
+*   Pyhton
+*   Matlab
+*   Solidworks
+
+# Here are some of my projects 
+## Faby : The telepresence Robot
+
+![Faby](./files/faby.jpg)
 
 
-# Here are some cool projects 
-### Dr. Moovy : The telepresence Robot for hospitals
-![Dr. Moovy](./files/render#3.png)
+Faby is an autonomous telepresence robot which was used for di-directional communications. Robot has interactive user interface and Google assistant. The robot is currently deployed in Fablab of SRM University. The robot is incorporated with dynamic and static obstacle avoidance.
 
-Dr. Moovy is a telepresence robot developed during the Covid-19 pandemic to deliver essential medical supplies to patients so that the health workers are kept away from the harm's way.
+The robot was later modified to accomodate trays so that the robot could be used to deliver tools to students working in the lab.
 
+![Faby](./files/actual_robot.jpeg)
 
+The ro
 
+## Tool wear prediction by monitoring vibrations 
 
 ## Header 2
 
