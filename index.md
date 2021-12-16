@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# **Maitreya Kulkarni**
+**Maitreya Kulkarni**
 Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Marjoring in Robotics Engineering
 
  # [Here is my Resume](./files/Maitreya_resume.pdf).
