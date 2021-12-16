@@ -2,13 +2,12 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# **Maitreya Kulkarni**
+Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Marjoring in Robotics Engineering
 
-[Link to another page](./another-page.html).
+ # [Here is my Resume](./another-page.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Header 1
 
