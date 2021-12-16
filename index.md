@@ -31,7 +31,9 @@ The robot was later modified to accomodate trays so that the robot could be used
 
 ![Faby](./files/actual_robot.jpeg)
 
-The ro
+![Faby](./files/faby3.png)
+
+
 
 ## Tool wear prediction by monitoring vibrations 
 
