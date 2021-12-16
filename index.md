@@ -23,6 +23,9 @@ Hello Everyone!, I am Maitreya, a Graduate student at University of Maryland Mar
 ### Dr. Moovy : The telepresence Robot for hospitals
 ![Dr. Moovy](./files/render#3.png)
 
+Dr. Moovy is a telepresence robot developed during the Covid-19 pandemic to deliver essential medical supplies to patients so that the health workers are kept away from the harm's way.
+
+
 
 
 ## Header 2
